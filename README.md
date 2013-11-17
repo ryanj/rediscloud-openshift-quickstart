@@ -15,7 +15,7 @@ This git repository helps you easily integrate the Redis Cloud service into your
       --from-code http://github.com/ryanj/rediscloud-sinatra-quickstart.git \
       --env REDISCLOUD_URL=YOUR_REDISCLOUD_HOSTNAME \
       --env REDISCLOUD_PORT=YOUR_REDISCLOUD_DB_PORT \
-      --env=REDISCLOUD_PASSWORD=YOUR_REDISCLOUD_DB_PASS
+      --env REDISCLOUD_PASSWORD=YOUR_REDISCLOUD_DB_PASS
 ```
 
 The above example uses "rediscloud" as the application name. It also includes an application source url, and several application configuration details.
